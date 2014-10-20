@@ -1,0 +1,15 @@
+{
+  "id": "mysql",
+  "prod": {
+    "encrypted_data": "xfxGiSWKLG1PtvEQbQg8saOXcOwBvE5AdnJ11Fzu8hlF3TvYdIaPwLTbgb8f\nOcNd8lEdvPSzLM3yC1kpkTKLNldU388tTLn77pUKPA8sN3QlLOdp/VY1Krcf\nPFvsubx7ANly9qAk1uznpz7HITEyWZA4QJdZ+GTJfeu+JZu7KpsLA1V8+q6E\npndM6i8RY8NDdmwvKSs5ZpTaNc/0EqIZO5xmWsqvjIo+29MEYnk+VOtbe/ux\n1/H/HUw7YHnkFTo5miKRYEp2qFwVnHLP83Gib6LJqXFfLcyCc7ndED5x6AY=\n",
+    "iv": "uH6uMHZAhtkNTPZlvVMUoQ==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "dev": {
+    "encrypted_data": "dbLVVNvirkJVPy3/fPn3nU7IiiaLsb2U6xcMILfvUm1427t0CrjWiIeVwcV1\nH4c2n0LnOu0mY4fG7RJ3kstC756m+zhlBQMHmnoewpK1hxmKzOQS0OHWXF3w\nojfUa9XKGTlMwvLQUka4hRVEr3Oqbbj/y3tbbcOWwsUHIbneV7+Rb7iV3FzL\n8f6FsVDy3ggk3jV7IRWHSJLSdkjFWZbNK/7Dj6vXQgtC3NGnZEaWPNElCZDu\no7gbpb4LbNx2cZ+1aaxfClJ4eOG6UY8o3MbvQnWG2IBWUzUcERDVirgV2AI=\n",
+    "iv": "Xiht63Nh5/T8B3vXY//UPg==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
+}
