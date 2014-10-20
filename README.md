@@ -18,4 +18,5 @@
 # Prepare cookbooks
 
   $ cd chef
+
   $ librarian-chef install
