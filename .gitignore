@@ -9,6 +9,9 @@ Icon?
 ehthumbs.db
 Thumbs.db
 
+# Vagrant generated files #
+.vagrant
+
 # User specific & automatically generated files #
 #################################################
 data_bag_key
