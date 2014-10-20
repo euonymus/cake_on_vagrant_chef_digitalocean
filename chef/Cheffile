@@ -7,4 +7,5 @@ cookbook 'apt'
 cookbook 'mysql'
 cookbook 'php'
 cookbook 'database'
+cookbook 'simple_iptables'
 

@@ -136,6 +136,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       recipe[php]
       recipe[php::module_mysql]
       recipe[test_site]
+      recipe[iptables]
     ]
   end
   # Added by euonymus. To avoid chef error
