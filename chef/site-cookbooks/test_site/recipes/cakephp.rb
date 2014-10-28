@@ -47,9 +47,12 @@ template node[:test_site][:cake_source] + '/app/Config/database.php' do
   owner "www-data"
   group "www-data"
   variables({
-     :login    => node[:test_site][:app_name],
-     :database => node[:test_site][:app_name],
-     :password => node[:test_site][:db_password]
+     :login         => node[:test_site][:db_user],
+     :database      => node[:test_site][:db_name],
+     :password      => node[:test_site][:db_password],
+     :test_login    => node[:test_site][:testdb_user],
+     :test_database => node[:test_site][:testdb_name],
+     :test_password => node[:test_site][:db_password]
   })
 end
 # file node[:test_site][:cake_source] + '/app/Config/database.php.default' do

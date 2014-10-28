@@ -63,8 +63,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     #ovr.vm.synced_folder "./src", "/var/www/test_site", :create => true, :owner => 'vagrant', :group => 'vagrant', :mount_options => ['dmode=777', 'fmode=666']
 
     vb.token = TOKEN
-    vb.image = 'Ubuntu 14.04 x64' # Example
     # vb.image = 'CentOS 6.5 x64'
+    # vb.image = 'Ubuntu 14.04 x64' # Example
+    vb.image = '14.04 x64' # Example
     vb.region = 'sgp1'
     vb.size = '512MB'
 
@@ -118,6 +119,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     #chef.cookbooks_path = "chef/cookbooks/"
     chef.cookbooks_path = ["chef/cookbooks", "chef/site-cookbooks"]
     chef.data_bags_path = "chef/data_bags"
+    # chef.environment = "production"
+    chef.environment = "development"
+    chef.environments_path = "chef/environments"
     chef.run_list = %w[
       recipe[apt]
       recipe[git]
@@ -133,10 +137,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       recipe[apache2::mod_vhost_alias]
       recipe[mysql::client]
       recipe[mysql::server]
-      recipe[php]
-      recipe[php::module_mysql]
       recipe[test_site]
       recipe[iptables]
+      recipe[php::module_mysql]
     ]
   end
   # Added by euonymus. To avoid chef error

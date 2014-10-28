@@ -1,14 +1,14 @@
 {
   "id": "mysql",
-  "prod": {
-    "encrypted_data": "5pIwMbxhPXWoLqm5H0EkVgY2DCTqRmr/8+/FLAZy8aJC/j77Ad31dcW90T/N\nIVumZTD3K8LkD91SQ2m9/3nZAXRQ+5JV7KxTOsHdkWmbNh7PqFCPuW7ED+WU\ndY0RICBKytmXUHU6oaHR/arxC/dz7EOkInidPR1fU5juf0y7G49z77N1BlXL\nsFGxkLCaO8zaOAl1eDZZpC+0fkryOMkhMcBY3fTmNb36PQitON6IcXyvppeG\n5cG0xxNRMQr3kaFEN1t3Qp8arDgd8gzF6QNvKRPZtkXhmbH0pBMI0BIdx8o=\n",
-    "iv": "RE8SiNiCm2aDTRDGUJn0gQ==\n",
+  "development": {
+    "encrypted_data": "NycmGaJDXT9m4ei494WfOke/zyDQ1avFytcKOkN3b1B1K4oBJgua1eX4LHsn\nz0r2NDXZrAODIuhvC225n1N9GymO26MlBZT7APPHebl6MdSfDAL9/tMln/+r\nmdwnTf0PtEOsO8IHeWTdUpFuJzkAEiT/L+1HNLzRD04L05CkcbzcuL2cGkj6\nRMGv9KW8B6wO6DrREfn4wmpkbXz8f43Q5yMSp1S4JBySyFFsN2/LqAdVHsqV\nnITd5aBmvpLlgoB/fmL/Q49jVYHRndqp1u0F5PKEzADXXajuP/n7BqzoJUU=\n",
+    "iv": "Vmeg42duEVz8eHWaEUCbLw==\n",
     "version": 1,
     "cipher": "aes-256-cbc"
   },
-  "dev": {
-    "encrypted_data": "/usJB7oukL+4AnNnG6aJfjkO0JxGPgcV8ZI67zMoBJVmcPsEfC8UbIwCVhVR\nMEbiB9DhGUfXcpWK9vuHJSt8Clr4XXt6h2K8AZp3WcbrZbckFTGad8fGdvpx\n5b2BKIIfg0yojlIktHHovC3S/3fyWeBlHyQd/LtjjEzVqy6PA5adck+U8X1k\nUtmZWvr41RR95wQ9K6LxA+/RGOfC32pUqr96GMEqcEYlN/s/nv3OUtBKapO9\nJhg2dpsJipAT1tHaO/VS1ClEDVjRFm3CRAGoSajlbaEWh87yFWQx1o7RQlI=\n",
-    "iv": "iJPPT31L1nrZGlYbM1c5qQ==\n",
+  "production": {
+    "encrypted_data": "3cUMaBW3YXB1JDOe1V5P0SfqR1ZbyhTfQ5OzHQw+yXDLYOm/0FBcVpYt7+JG\nXetznwrBIYUnUNb+6BVLMV8c9gAjiT9IRsaPwp3bG5PiBXO0LKcRNGCsUbtY\nVCmSt1muMWuR41OQnwehz/35bjADGy0Fx7aTl7uVy4zKuotYQzMP2FKXkSAG\n91eE/RR1RWFDJhUz197fx3Qu8vRya+xALlYSwGUuY4F4itKYz+5kRI8W9h8y\n0tkw7q+vDZ7cy4Cf8UtQVqZqlBLRjVGytn4I3OeNfu/p9IWraf7tbXAgV+E=\n",
+    "iv": "Zwf7rpUNYiRc7p8O8NPbsQ==\n",
     "version": 1,
     "cipher": "aes-256-cbc"
   }

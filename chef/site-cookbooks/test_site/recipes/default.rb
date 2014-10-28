@@ -9,5 +9,6 @@
 include_recipe 'test_site::apache'
 include_recipe 'test_site::mysql'
 include_recipe 'test_site::cakephp'
+include_recipe 'test_site::php'
 # include_recipe 'test_site::git'
 #include_recipe 'test_site::wordpress'
