@@ -60,9 +60,11 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     ovr.ssh.private_key_path = "~/.ssh/id_rsa_digitalocean"
     ovr.vm.box = "digital_ocean"
     ovr.vm.box_url = "https://github.com/smdahlen/vagrant-digitalocean/raw/master/box/digital_ocean.box"
+    ovr.vm.hostname = "lamp_sample"
     #ovr.vm.synced_folder "./src", "/var/www/test_site", :create => true, :owner => 'vagrant', :group => 'vagrant', :mount_options => ['dmode=777', 'fmode=666']
 
     vb.token = TOKEN
+    vb.ssh_key_name = 'euonymus' # Example
     # vb.image = 'CentOS 6.5 x64'
     # vb.image = 'Ubuntu 14.04 x64' # Example
     vb.image = '14.04 x64' # Example
